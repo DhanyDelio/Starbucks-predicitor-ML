@@ -4,7 +4,7 @@ path_data = "/Users/dhanydelio/Downloads/archive/starbucks_drinkMenu_expanded.cs
 
 df = pd.read_csv(path_data)
 
-print(" 5 teratas ")
+print("top 5")
 print(df.head())
 print("\n Info Dataset")
 df.info()
