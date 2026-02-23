@@ -3,14 +3,16 @@
 A high-precision Machine Learning project designed to predict beverage calories based on nutritional facts. This serves as my initial milestone in the AI ecosystem.
 
 ### 📊 Performance Metrics
-* **Accuracy Score:** `99.27%` (R² Score)
+* **R² Score (Accuracy):** `99.60%` 🚀
+* **Mean Absolute Error (MAE):** `4.89` Calories
 * **Algorithm:** Linear Regression
 * **Hardware:** Optimized and trained on Apple M1 Silicon
 
 ### 📁 Project Architecture
-* `ML_training.py` – Core script for model training and serialization (.sav).
-* `Splitting.ipynb` – Data distribution experiments (80:20 split) and exploratory analysis.
+* `save_model.py` – Final script for model training and serialization (.joblib).
+* `Splitting.ipynb` – Data distribution experiments and exploratory analysis (EDA).
 * `report.ipynb` – Performance validation and prediction-vs-actual visualization.
+* `starbucks_model_pack.joblib` – The "Production-Ready" trained model.
 
 ### 🛠️ Tech Stack
 * **Language:** Python
@@ -19,5 +21,6 @@ A high-precision Machine Learning project designed to predict beverage calories 
 * **Environment:** VS Code | MacBook Air M1
 
 ---
+**Dataset Source:** [Kaggle - Starbucks Menu](https://www.kaggle.com/datasets/starbucks/starbucks-menu)
 **Focus:** Continuous growth in Machine Learning and Data Intelligence.
-**Next Milestone:** Deep Learning (DL) Implementation.
+**Next Milestone:** Flask API & Deep Learning (DL) Implementation.
